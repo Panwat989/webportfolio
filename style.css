@@ -61,6 +61,7 @@ h3 {
     color: #ff8a5b;
     font-size: 30px;
     margin-bottom: 10px;
+    white-space: nowrap;
 }
 
 .out {
@@ -199,4 +200,73 @@ td {
     #port-title {
         font-size: 48px;
     }
+}
+
+.site-nav {
+    background-color: #171a21;
+    border-bottom: 2px solid #9aa3b2;
+    padding: 10px 0;
+}
+
+.site-nav .navbar-brand {
+    color: #ff8a5b;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.site-nav .navbar-brand {
+    color: #ff8a5b;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.nav-btn {
+    color: #fcfdfd !important;
+    border: 2px solid #9aa3b2;
+    border-radius: 30px;
+    padding: 6px 22px !important;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.nav-btn:hover,
+.nav-btn:focus-visible,
+.nav-btn.active {
+    background-color: #ff8a5b;
+    border-color: #ff8a5b;
+    color: #0f1115 !important;
+}
+
+.site-nav .navbar-toggler {
+    border-color: #9aa3b2;
+    filter: invert(1);
+}
+
+.next-w {
+    text-align: center;
+    margin: 30px 0 50px;
+}
+
+.next-btn {
+    display: inline-block;
+    padding: 12px 36px;
+    border: 2px solid #ff8a5b;
+    border-radius: 40px;
+    color: #ff8a5b;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.next-btn:hover, .next-btn:focus-visible {
+    background-color: #ff8a5b;
+    color: #0f1115;
+}
+
+.layout-sig{
+    grid-template-columns: 1fr;
+}
+
+#skill-tit {
+    color: #ff8a5b;
 }
