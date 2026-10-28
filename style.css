@@ -270,3 +270,23 @@ td {
 #skill-tit {
     color: #ff8a5b;
 }
+
+#pt1 {
+    color: #ff8a5b;
+}
+
+.p5 {
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    margin: 20px auto;
+}
+
+.cer {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 16px;
+    overflow-x: auto;
+    margin: 20px 0;
+}
