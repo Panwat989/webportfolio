@@ -106,6 +106,7 @@ p {
     font-size: 70px;
     margin: 0 0 20px;
     padding: 10px;
+    justify-self: center;
 }
 
 #welcome {
@@ -290,3 +291,4 @@ td {
     overflow-x: auto;
     margin: 20px 0;
 }
+
