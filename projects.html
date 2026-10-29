@@ -26,14 +26,16 @@
             </div>
     </div>
     </div>
-<hader id="header">
+<header id="header">
     <h1 id="port-title">ผลงาน</h1>
-</hader>
+</header>
 
 <div class="box">
     <h1 id="pt1">ปพ1 (4เทอม)</h1>
-    <img src="cer/pt1.jpg" class="p5" alt="ใบเกรด">
-    <img src="cer/pt2.jpg" class="p5" alt="ใบเกรด">
+    <div class="cer">
+        <img src="cer/pt1.jpg" class="p5" alt="ใบเกรด">
+        <img src="cer/pt2.jpg" class="p5" alt="ใบเกรด">
+    </div>
 </div>
 
 <div class="layout-sig">
@@ -102,7 +104,16 @@
     <a href="index.html" class="next-btn">กลับสู่หน้าแรก</a>
 </div>
 
-<script src="script.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<div class="modal fade" id="imgModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content img-modal-content">
+            <button type="button" class="btn-close img-modal-close" data-bs-dismiss="modal" aria-label="ปิด"></button>
+            <img id="imgModalSrc" src="" alt="" class="img-modal-img">
+        </div>
+    </div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
